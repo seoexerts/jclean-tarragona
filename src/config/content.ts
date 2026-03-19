@@ -112,14 +112,21 @@ export const content = {
 
   // ── Textos de secciones ───────────────────────────────────────
   sections: {
+    beneficiosH2:   'Razones para confiar en JClean en {{city}}',
     beneficiosSub:  'Más de 10 años de experiencia. Equipo propio, sin subcontratas y con gestión de residuos certificada.',
+    serviciosH2:    'Soluciones de vaciado y limpieza en {{city}}',
     serviciosSub:   'Todo lo que necesitas para dejar el inmueble listo.',
+    zonaH2:         'Dónde actuamos: {{city}} y municipios cercanos',
+    procesoH2:      'Así trabajamos: 4 pasos claros y sin sorpresas',
+    testimoniosH2:  'Opiniones reales de clientes en {{city}}',
     testimoniosSub: 'Más de 500 familias y empresas han confiado en nosotros.',
+    preciosH2:      'Tarifas orientativas para {{city}}',
+    preciosSub:     'Presupuesto final gratuito y sin compromiso. Estos precios son orientativos — el coste real depende del volumen y accesibilidad.',
+    faqH2:          'Lo que nos preguntan nuestros clientes de {{city}}',
+    faqSub:         'Resolvemos las dudas más habituales antes de contratar el servicio.',
     zonaComarca:    'de la comarca',
     zonaBarrios:    'También en los barrios de {{city}}:',
-    preciosSub:     'Presupuesto final gratuito y sin compromiso. Estos precios son orientativos — el coste real depende del volumen y accesibilidad.',
     preciosNota:    'Precios orientativos para {{city}}. El presupuesto definitivo se calcula según el volumen real, accesibilidad y distancia al punto limpio. Siempre gratuito y sin compromiso.',
-    faqSub:         'Resolvemos las dudas más habituales antes de contratar el servicio.',
   },
 
   // ── Testimonios (4) ───────────────────────────────────────────

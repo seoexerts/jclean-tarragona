@@ -141,7 +141,7 @@ const description = `${content.hero.description} Llama al ${siteConfig.phone}.`;
       <section class="sec sec--tint" aria-labelledby="beneficios-heading">
         <div class="container">
           <div class="section-header reveal">
-            <h2 id="beneficios-heading">¿Por qué elegirnos en {siteConfig.mainCity}?</h2>
+            <h2 id="beneficios-heading">{c((content.sections as any).beneficiosH2 ?? '¿Por qué elegirnos en {{city}}?')}</h2>
             <p class="section-sub">{content.sections.beneficiosSub}</p>
           </div>
           <ul class="benefits-grid reveal-stagger" role="list">
@@ -160,7 +160,7 @@ const description = `${content.hero.description} Llama al ${siteConfig.phone}.`;
       <section class="sec" aria-labelledby="servicios-heading">
         <div class="container">
           <div class="section-header reveal">
-            <h2 id="servicios-heading">Nuestros servicios en {siteConfig.mainCity}</h2>
+            <h2 id="servicios-heading">{c((content.sections as any).serviciosH2 ?? 'Nuestros servicios en {{city}}')}</h2>
             <p class="section-sub">{content.sections.serviciosSub}</p>
           </div>
           <p class="srv-grid-intro">
@@ -190,7 +190,7 @@ const description = `${content.hero.description} Llama al ${siteConfig.phone}.`;
       <section class="sec sec--tint" aria-labelledby="zona-heading">
         <div class="container">
           <div class="section-header reveal">
-            <h2 id="zona-heading">Zona de actuación: {siteConfig.mainCity} y alrededores</h2>
+            <h2 id="zona-heading">{c((content.sections as any).zonaH2 ?? 'Zona de actuación: {{city}} y alrededores')}</h2>
             <p class="section-sub">Cubrimos {siteConfig.mainCity} y {ciudades.length - 1} municipios de la comarca. Desplazamiento incluido en el presupuesto.</p>
           </div>
           <ul class="zona-grid reveal-stagger" role="list">
@@ -223,7 +223,7 @@ const description = `${content.hero.description} Llama al ${siteConfig.phone}.`;
       <section class="sec" aria-labelledby="proceso-heading">
         <div class="container">
           <div class="section-header">
-            <h2 id="proceso-heading">Cómo trabajamos: 4 pasos sin complicaciones</h2>
+            <h2 id="proceso-heading">{c((content.sections as any).procesoH2 ?? 'Cómo trabajamos: 4 pasos sin complicaciones')}</h2>
             <p class="section-sub">{c(content.sections.beneficiosSub)}</p>
           </div>
           <ol class="proceso-steps">
@@ -244,7 +244,7 @@ const description = `${content.hero.description} Llama al ${siteConfig.phone}.`;
       <section class="sec sec--dark" aria-labelledby="testimonios-heading">
         <div class="container">
           <div class="section-header">
-            <h2 id="testimonios-heading">Lo que dicen nuestros clientes en {siteConfig.mainCity}</h2>
+            <h2 id="testimonios-heading">{c((content.sections as any).testimoniosH2 ?? 'Lo que dicen nuestros clientes en {{city}}')}</h2>
             <p class="section-sub-dark">{content.sections.testimoniosSub}</p>
           </div>
           <div class="testimonios-track" role="list">
@@ -273,7 +273,7 @@ const description = `${content.hero.description} Llama al ${siteConfig.phone}.`;
       <section class="sec sec--tint" aria-labelledby="precios-heading">
         <div class="container">
           <div class="section-header">
-            <h2 id="precios-heading">Precios orientativos en {siteConfig.mainCity}</h2>
+            <h2 id="precios-heading">{c((content.sections as any).preciosH2 ?? 'Precios orientativos en {{city}}')}</h2>
             <p class="section-sub">{content.sections.preciosSub}</p>
           </div>
           <ul class="precios-grid" role="list">
@@ -301,7 +301,7 @@ const description = `${content.hero.description} Llama al ${siteConfig.phone}.`;
       <section class="sec" aria-labelledby="faq-heading">
         <div class="container">
           <div class="section-header">
-            <h2 id="faq-heading">Preguntas frecuentes en {siteConfig.mainCity}</h2>
+            <h2 id="faq-heading">{c((content.sections as any).faqH2 ?? 'Preguntas frecuentes en {{city}}')}</h2>
             <p class="section-sub">{content.sections.faqSub}</p>
           </div>
           <div class="faq-list">
