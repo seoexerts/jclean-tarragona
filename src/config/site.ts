@@ -78,7 +78,7 @@ export const siteConfig = {
   },
 
   // ── Verificación de sitio ─────────────────────────────
-  googleVerification: '"VecKxVtQt7zzzW_RNZbxeAsYQ66Ih20xCXJu00z2fAA" />',
+  googleVerification: 'VecKxVtQt7zzzW_RNZbxeAsYQ66Ih20xCXJu00z2fAA',
   bingVerification:   '',
 
 } as const;
