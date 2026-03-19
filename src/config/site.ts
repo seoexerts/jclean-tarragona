@@ -8,8 +8,8 @@
 export const siteConfig = {
 
   // ── Identidad del negocio ──────────────────────────────
-  businessName:      'JC Tarragona',
-  businessNameLegal: 'JustClean',
+  businessName:      'JClean Tarragona',
+  businessNameLegal: 'JustClean Tarragona',
   cif:   'B12345678',
   logo:  '/logo.png',
 
